@@ -1,6 +1,6 @@
 # Amazon_Vine_Analysis
 
-Resources
+## Resources
 - AWS RDS
 - PGAdmin4
 - PostgreSQL
@@ -26,6 +26,14 @@ Deliverable 3: A Written Report on the Analysis
 
 Created an AWS RDS database with tables in pgAdmin, picking a dataset from the Amazon Review datasets (https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), and extracted the dataset into a DataFrame. Transformed the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Uploaded the transformed data into the appropriate tables and ran queries in pgAdmin to confirm that the data had been uploaded.
 
+![review](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Review%20ID%20Table.png) 
+
+![products](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Products%20table.png)
+
+![customers](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Customers%20table.png)
+
+![vine](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/vine%20table.png)
+
 
 ## Determine Bias of Vine Reviews
 
@@ -34,7 +42,7 @@ Using knowledge of PySpark, etermined whether a bias toward favorable reviews fr
 ## Results
 
 ### Initial DataFrame
-![initial dataframe]()
+![initial dataframe](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Video%20Games%20Reviews%20DF.png)
 
 How many Vine reviews and non-Vine reviews were there?
 
@@ -44,7 +52,7 @@ Cleaned / filtered the review data as follows:
 
 ### Votes greater than or equal to 20
 
-![Votes >= 20]()
+![Votes >= 20](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Votes%20%3E%3D%2020.png)
 
 - Filtered data from the new DataFrame to create a further new DataFrame to retrieve all the rows where the number of helpful_votes divided by total_votes was equal to or greater than 50%.
 
