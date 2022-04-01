@@ -18,9 +18,9 @@ Picked a dataset containing gaming reviews and used PySpark to perform the ETL p
 
 Project consists of two technical analysis deliverables and a written report as follows:
 
-Deliverable 1: Perform ETL on Amazon Product Reviews
-Deliverable 2: Determine Bias of Vine Reviews
-Deliverable 3: A Written Report on the Analysis 
+- Deliverable 1: Perform ETL on Amazon Product Reviews
+- Deliverable 2: Determine Bias of Vine Reviews
+- Deliverable 3: A Written Report on the Analysis 
 
 ## ETL on Amazon Product Reviews
 
