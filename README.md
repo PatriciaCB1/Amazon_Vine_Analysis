@@ -42,7 +42,7 @@ Using knowledge of PySpark, etermined whether a bias toward favorable reviews fr
 ## Results
 
 ### Initial DataFrame
-![initial dataframe](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Video%20Games%20Reviews%20DF.png)
+![initial dataframe](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Initial%20dataframe%20creation.png)
 
 How many Vine reviews and non-Vine reviews were there?
 
@@ -58,23 +58,23 @@ Cleaned / filtered the review data as follows:
 
 ### Helpful votes greater than or equal to 50%
 
-![Helpful Votes >= 50%]
+![Helpful Votes >= 50%](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Helpful%20votes%20%3E%3D%2050%25.png)
 
 - Filtered the resulting DataFrame to create a third DataFrame hat retrieved all the rows where a review was written as part of the Vine program (paid), vine == 'Y'.
 
 ### Vine (paid)
 
-![Vine YES]()
+![Vine YES](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Vine%20YES.png)
 
 - Filtered the resulting DataFrame to create a third DataFrame hat retrieved all the rows where a review was written NOT as part of the Vine program (unpaid), vine == 'N'.
 
 ### Non-Vine (unpaid)
 
-![Vine NO]()
+![Vine NO](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Vine%20NO%202.png)
 
 Within the filtered DataFrame there were 40,565 reviews (94 paid + 40,471 unpaid)
 
-![Paid V Non-paid Reviews]()
+![Paid V Non-paid Reviews](https://github.com/PatriciaCB1/Amazon_Vine_Analysis/blob/main/Images/Paid%20V%20Non-paid%20Reviews.png)
 
 How many Vine reviews were 5 stars? - There were 48 Vine (paid) reviews that were 5 stars.
 
